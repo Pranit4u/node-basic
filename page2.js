@@ -15,3 +15,6 @@ function checkError(error) {
 }
 
 http.createServer(serverFunction).listen(8080,checkError);
+
+/* The function passed into the http.createServer() method,
+will be executed when someone tries to access the computer on port 8080 */
