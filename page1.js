@@ -1,4 +1,4 @@
-/*  Passing function as argument    */
+/*  Passing function as argument  -  callback  */
 
 function callOtherFunction(f) {
     console.log("going to call the other function...");
